@@ -1,0 +1,51 @@
+# hash - to będzie symbol komentarza bez znaczenia dla struktury
+# danych.
+# Taki znak może wystąpić gdziekolwiek w pliku, ale tylko na
+# początku danego wiersza.
+#
+# Title określa nazwę wykonywanej operacji: PERMUTACJA, KOMBINACJA,
+# WARIACJA_Z_POWTÓRZENIAMI, WARIACJA_BEZ_POWTORZEŃ
+#
+TITLE=WARIACJA_BEZ_POWTÓRZEŃ
+#PERMUTACJA|KOMBINACJA|WARIACJA_Z_POWTÓRZENIAMI|WARIACJA_BEZ_POWTÓRZEŃ
+# symbol | identyfikuje alternatywę rozłączną ALBO i wskazuje na
+# jeden wariant z wielu możliwych (RADIO BUTTON)
+#
+# Poniżej GENERATE_ALL_SETS może być TRUE albo FALSE, jeśli jest
+# TRUE, to należy wygenerować wszystkie zbiory wynikające z użycia
+# permutacji, kombinacji czy wariacji na zadanym zbiorze
+# wejściowym.
+#
+GENERATE_ALL_SETS=TRUE
+#TRUE|FALSE
+#
+# Jeśli w TITLE jest PERMUTACJA to K_ELEMENTS=N, można użyć tę
+# równość jako warunek poprawności danych dla permutacji
+# albo pominąć interpretację K_ELEMENTS, bo zawsze musi być równe N
+# dla permutacji.
+#
+#
+#
+#
+K_ELEMENTS=4
+#
+#
+# CARD_OF_SET=N będzie symbolizować liczbę elementów zbioru, jego
+# moc zbioru, liczebność. Zbiór może posiadać elementy będące
+# łańcuchami znaków (strings).
+#
+#
+CARD_OF_SET=4
+#
+#
+#
+#
+#
+SAVE=FALSE
+#
+# Poniżej elementy zbioru
+Katowice
+Kraków
+Warszawa
+Rybnik
+#
