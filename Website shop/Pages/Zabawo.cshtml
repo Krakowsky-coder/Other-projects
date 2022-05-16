@@ -1,0 +1,78 @@
+﻿@page
+@model WebApplication1.Pages.ZabawoModel
+@{
+}
+<link rel="stylesheet" href="~/css/probka.css" type="text/css"/>
+         <div id="nav">
+<h1>Kontakt do nas</h1>
+<p>Nasi eksperci czekają na Ciebie:</p>
+<p>⏰pon. - pt.: <b> 8:00 - 18:00</b></p>
+<p>⏰sb.: <b> 8:00 - 16:00</b></p>
+<br />
+<h2>Dane firmy</h2>
+<p><b>Zaczarowana Hydnora S.A.</b></p>
+<p>🏢ul. Będzińska 39</p>
+<p>📌41-205 Sosnowiec</p>
+<p><b>☎️tel:</b> +48 123 123 123</p>
+<p><a href="mailto:adres e-mail">📧info@zaczarowanahydnora.pl</a></p>
+<br />
+<p><b>NIP:</b> 2102102102</p>
+<p><b>REGON:</b> 210210210</p>
+<p><b>KRS:</b> 210210210</p>
+<br />
+<p><b>PKO Bank Polski S.A. numer rachunku:</b></p>
+ <p>💸00 1001 1011 1010 1010 1010 1010</p>
+ <p>🚗Jak do nas dojechać?</p>
+        </div>
+       
+         <div id="content">  
+        <div class="container">
+        <div class="row">
+                    <h2>Formularz kontaktowy</h2>
+                <p>Prosze wypelnic wszystkie pola</p>
+                <form>
+                    
+                        <label></label>
+                        <input type="text" name="login" placeholder="Imię i nazwisko" class="form-control" value="" maxlength="50" required="">
+                    
+                  
+                        <label></label>
+                        <input type="email" placeholder="Adres e-mail "name="email" class="form-control" value="" maxlength="30" required="">
+                    <br>
+                        <select>
+                            <option >Wybierz temat</option>
+                            <option>Doradztwo techniczne</option>
+                            <option>Pytanie o dostępność produktu</option>
+                            <option>Status przesyłki</option>
+                            <option>Reklamacja i zwroty</option>
+                            <option>Oferta dla serwisów partnerskich</option>
+                            <option>Sugestie dotyczące treści, opisu lub funkcjonalności</option>
+                            <option>Inne</option>
+                        </select>
+                        <br>
+                        <p></p>
+                    
+                          <textarea maxlength="2000" placeholder="Rozwiń wypowiedź" name="Message" rows="4" cols="50"></textarea>
+                       
+                  
+                    <br>
+                    <label><input type="checkbox" required=""> Wyrażam zgodę na przetwarzane moich danych osobowych w celu udzielenie odpowiedzi na zapytanie.</label>
+                    <br>
+                    
+                    <label><input type="checkbox" required=""> Zapoznałem się z <a href>regulaminem sklepu ZaczarowanaHydnora.pl</a> oraz <a href>Polityką prywatności</a>, w celu której zawarto obowiązek informacyjny związany z przetwarzaniem danych osobowych</label>
+                    <br>
+                    
+                    <label><input type="checkbox"> Wyślij kopię na mój adres e-mail</label>
+                    <br><br>
+
+                    <input type="submit" class="btn btn-primary" name="signup" value="Wyślij zapytanie!">
+                </form>
+        </div>
+    </div>    
+        </div>
+
+         <div id="footer">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10270.442294540833!2d18.6171365!3d49.943648!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da83f9e846e1%3A0xb2894d075e02f30f!2sB%C4%99dzi%C5%84ska%2039%2C%2041-205%20Sosnowiec!5e0!3m2!1spl!2spl!4v1652264170268!5m2!1spl!2spl" 
+        width="1500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>

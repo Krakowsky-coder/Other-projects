@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    width: 1004px;
+    overflow: auto;
+}
+
+#nav {
+    width: 450px;
+    float: left;
+    overflow: hidden;
+}
+
+#content {
+    width: 480px;
+    height: 750px;
+    float: left;
+    float: left;
+    overflow: hidden;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    background-color: #888;
+}

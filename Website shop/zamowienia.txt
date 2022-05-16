@@ -1,0 +1,4 @@
+4/25/2022 8:46:15 AM: Dawid@gmail.com, Drzewo, 2, 500
+4/25/2022 8:46:20 AM: Dawid@gmail.com, Doniczki, 3, 60
+4/25/2022 8:46:24 AM: Dawid@gmail.com, Grill, 1, 400
+4/25/2022 8:46:27 AM: Dawid@gmail.com, Buk, 3, 75
